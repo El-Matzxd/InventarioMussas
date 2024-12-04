@@ -28,3 +28,4 @@ public class ConsultarInventarioServlet extends HttpServlet {
 }
 
 
+
