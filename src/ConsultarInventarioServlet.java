@@ -15,7 +15,7 @@ public class ConsultarInventarioServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Inventario inventario = new Inventario();
-        inventario.agregarProducto(new Producto(1, "Esmalte Azul", 5, "Esmalte De Uñas Azul"));
+        inventario.agregarProducto(new Producto(1, "Esmalte Aul", 5, "Esmalte De Uñas Azul"));
         inventario.agregarProducto(new Producto(2, "Esmalte Rojo", 10, "Esmalte De Uñas Rojo"));
 
         List<Producto> productos = inventario.obtenerProductos();
